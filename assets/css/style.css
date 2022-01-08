@@ -13,6 +13,9 @@ body {
     color: var(--secondary-color);
     font-family: Trebuchet MS, Arial, sans-serif;
     background-color: var(--primary-color);
+    border: solid red 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   /* HEADER / NAV BAR STYLES START */
@@ -45,6 +48,7 @@ header a {
 
 header nav {
   margin: 7px 0;
+  border: solid red 5px;
 }
 
 header nav ul {
@@ -70,9 +74,37 @@ header nav ul li a:hover {
 
 /* SECTION STYLES */
 .subtitle {
-    font-size: 1.75vw;
-    font-weight: lighter;
-    text-align: right;
-    text-shadow: beige;
-    padding: 10px 10px 10px 10px;
+  font-size: 1.75vw;
+  font-weight: lighter;
+  text-align: right;
+  text-shadow: beige;
+  padding: 10px 10px 10px 10px;
+}
+
+.intro img {
+  max-width: 15%;
+}
+
+.big-showcase-item a img {
+  max-width: 400px;
+  max-height: 350px;
+}
+
+.cont-showcase-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.cont-showcase-items a {
+  display: flex;
+  border: solid red 5px;
+}
+
+.cont-showcase-items a img {
+  max-width: 400px;
+  max-height: 350px;
+  border: solid red 5px;
 }

@@ -5,100 +5,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    <title>JulesMcP</title>
+    <title>Julieta McPherson</title>
 </head>
 
 <body>
-    <!-- navigation -->
+    <!-- header/navigation -->
     <header>
-        <h1>
-            <a href="#JulesMcP">Julieta McPherson</a>
-        </h1>
+        <h1>Julieta McPherson</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
+            <ul class="nav">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- BEGIN CONTENT SECTION -->
-    <section class="content">
-        <p class="subtitle">"The expert in anything was once a beginner." - Helen Hayes</p>
-        <!-- ABOUT ME -->
-        <div class="flex-row">
-        <article id="about-me" class="intro">
-            <img src="images/JMcPortfolio-swag-pic.jpg" alt="picture of Julieta McPherson" />
-            <h2>About Me</h2>
-            <p>I have been a middle school teacher for fifteen years. I am currently working as a sixth grade math and science teacher. While working full-time, I am completeing a coding bootcamp through Vanderbilt University to become certified as a Full Stack Web Developer. I plan on updating my profile with more work as I continue my education. I am set to complete this course May 25, 2022, and am interested in starting a career in this quickly growing field.</p>
-        </article>
-        </div>
+    <!-- subtitle -->
+    <section id="subtitle" class="subtitle">
+        <p>"The expert in anything was once a beginner." - Helen Hayes</p>
 
-        <!-- WORK -->
-        <div class="flex-row">
-        <article id="work" class="showcase">
-            <h2>Work</h2>
-            <p class="in-progress">WARNING: UNDER CONSTRUCTION!</p>
-                <!-- FIRST APPLICATION IMAGE, LARGER THAN THE OTHERS -->
-                <div class="1st-showcase-item">
-                <a href="https://julesmcp.github.io/run-buddy2/"><img src="images/run-buddy-fistbump.jfif" alt="man and woman sitting outside after a run fist bumping"></a>
-                    <h3 class="big-btn">Run Buddy 2.0</h3>
-                    <p>HTML/CSS</p>
+    <!-- ABOUT ME -->
+    <section id="about-me" class="intro">
+        <div>
+            <h2>About Me</h2>
+            <p>I have been a middle school teacher for fifteen years. I am currently working as a sixth grade math and science teacher.</p>
+            <br>
+            <p>While working full-time, I am completeing a coding bootcamp through Vanderbilt University to become certified as a Full Stack Web Developer. I plan on updating my profile with more work as I continue my education.</p>
+            <br>
+            <p>I am set to complete this course May 25, 2022, and am interested in starting a career in this quickly growing field.</p>
+        </div>
+        <div>
+            <img src="./assets/images/JMcPortfolio-swag-pic.jpg" alt="picture of Julieta McPherson" class="pic-of-me"/>
+        </div>
+    </section>    
+
+        <!-- MY WORK -->
+        <section id="work" class="showcase">
+            <h2>My Work</h2>
+            <br>
+            <!-- FIRST APPLICATION IMAGE, LARGER THAN THE OTHERS -->
+            <div class="run-buddy2">
+                <a href="https://julesmcp.github.io/run-buddy2/"><img src="./assets/images/flipped-hero-image.jpg" alt="female runner squatting to tie her shoe in the road with a forest backdrop"></a>
+                <h3 class="title">Run Buddy</h3>
+                <p>HTML/CSS</p>
+                <br>
                 </div>
                 
-                <!-- SMALLER APPLICATION IMAGES -->
-                <div class="cont-showcase-items">
-                    <a href="https://julesmcp.github.io/code-refactor-Horiseon/"><img src="images/horiseon-img.png" alt="Top of Horiseon website page, showing coworkers at a conference table"></a>
-                        <h3 class="btn">Code Refactor</h3>
-                        <p>HTML/CSS</p>
+            <!-- SMALLER APPLICATION IMAGES -->
+            <div class="smaller">
+                <div class="Horiseon">
+                <a href="https://julesmcp.github.io/code-refactor-Horiseon/"><img src="./assets/images/horiseon-img.png" alt="Top of Horiseon website page, showing coworkers at a conference table"></a>
+                    <h3 class="title">Code Refactor</h3>
+                    <p>HTML/CSS</p>
+                    <br>
                 </div>
-
-                <div class="cont-showcase-items">
-                    <a href="https://julesmcp.github.io/robot-gladiators/"><img src="images/robot-gladiator-image.jpg" alt="top half of a standing gray distressed metal fighting robot with shield"></a>
-                        <h3 class="btn">Robot Gladiators</h3>
-                        <p>JavaScript</p>
+                <div class="robot-gladiators">
+                    <a href="https://julesmcp.github.io/robot-gladiators/"><img src="./assets/images/robot-gladiator-image.jpg" alt="top half of a standing gray distressed metal fighting robot with shield"></a>
+                    <h3 class="title">Robot Gladiators</h3>
+                    <p>JavaScript</p>
+                    <br>
                 </div>
+            </div>
+        </section>
+            
         
         <!-- CONTACT ME -->
-        <div class="flex-row">
-        <article id="contact-me" class="contact-info">
+        <section id="contact-me" class="contact-me">
             <h2>Contact Me</h2>
-                <ul>
-                    <li>
-                        <a href="#phone-number">708-427-1114</a>
-                    </li>
-                        <a href="#email">rogue427@yahoo.com</a>
-                    <li>
-                        <a href="https://github.com/JulesMcP">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/mcphersonjcms">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/julieta-mcpherson-71a07b227/">LinkedIn</a>
-                    </li>
-                </ul>
+                <a href="mailto:mcphersonjcms@gmail.com"><img src="./assets/images/gmail-logo.png" alt="gmail icon"></a>
+                <a href="https://github.com/JulesMcP"><img src="./assets/images/github-logo.png" alt="github icon"></a>
+                <a href="https://www.linkedin.com/in/julieta-mcpherson-71a07b227/"><img src="./assets/images/social-linkedin-box-blue-logo-2.png" alt="LinkedIn icon"></a>
 
-        </article>
-        </div>
-
-        </article>
+        </section>
         </div>
         
-        <div class="credits">
-            <h4>Photo credits</h4>
-            <a href="https://runningmagazine.ca/the-scene/how-to-deal-with-common-running-buddy-problems/">runningmagazine.ca</a>
-            <a href="https://lukamivsek.cgsociety.org/hj2k/gladiator">lukamivsek.cgsociety.org</a>
-        </div>
-
     </section>
+
+    <!-- footer -->
+    <footer>
+        Julieta McPherson &copy; 2021
+    </footer>
 
 </body>
 </html>
+
+<!-- PHOTO CREDITS -->
+            
+        <!-- https://runningmagazine.ca/the-scene/how-to-deal-with-common-running-buddy-problems/; runningmagazine.ca -->
+        <!-- https://lukamivsek.cgsociety.org/hj2k/gladiator; lukamivsek.cgsociety.org -->
+        <!-- https://www.freepnglogos.com/ -->
