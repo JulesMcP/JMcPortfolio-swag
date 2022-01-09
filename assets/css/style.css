@@ -82,13 +82,16 @@ header nav ul li a:hover {
 /* ABOUT ME */
 .intro {
   display: flex;
-  flex-direction: column;
   padding: 50px;
   margin: 0 10%;
-  border: red solid 5px
+  border: red solid 5px;
+  align-items: center;
 }
 
 .intro div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   flex: 1;
 }
@@ -102,25 +105,75 @@ header nav ul li a:hover {
 }
 
 /* MY WORK */
-.showcase {}
-.run-buddy2 a img {
-  max-width: 400px;
-  max-height: 350px;
+.showcase {
+  margin: 0 10%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  border: red solid 5px;
+}
+
+.showcase img {
+  border: solid var(--secondary-color) 5px;
+  border-radius: 50%;
+}
+
+.run-buddy2 {
+  flex: 2;
+  position: relative;
+}
+
+.run-buddy2 img {
+  width: 40vw;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.run-buddy2 img:hover {
+  filter:brightness(100%)
 }
 
 .smaller {
   display: flex;
   flex-direction: row;
+  position: relative;
   justify-content: center;
   flex-wrap: wrap;
-  flex-grow: 1;
+  flex: 1;
 }
 
-.smaller a {
-  display: flex;
+.Horiseon img {
+  width: 20vw;
+  height: auto;
+  flex: 1;
+  filter: grayscale(100%);
 }
 
-.smaller a img {
-  max-width: 400px;
-  max-height: 350px;
+.Horiseon img:hover {
+  filter: brightness(100%);
 }
+
+.robot-gladiators img {
+  width: 20vw;
+  height: 10vw;
+  flex: 1;
+  filter: grayscale(100%);
+}
+
+.robot-gladiators img:hover {
+  filter: brightness(100%);
+}
+
+.title {
+  text-align: center;
+  font-size: auto;
+  font-weight: bold;
+}
+
+
+
+
+
