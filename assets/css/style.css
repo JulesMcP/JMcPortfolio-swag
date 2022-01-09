@@ -14,11 +14,12 @@ body {
     color: var(--secondary-color);
     font-family: Trebuchet MS, Arial, sans-serif;
     background-color: var(--primary-color);
+    text-align: center;
   }
 
   /* HEADER / NAV BAR STYLES START */
 header {
-  padding: 20px 35px;
+  padding: 10px 35px;
   background-color: beige;
   background-size: cover;
   background-attachment: fixed;
@@ -71,12 +72,15 @@ header nav ul li a:hover {
 
 /* SUBTITLE */
 .subtitle {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  font-size: 1.75vw;
-  font-weight: lighter;
+  font-size: 1.9vw;
+  font-weight: bold;
   text-align: center;
-  padding: 10px 10px 10px 10px;
+  padding: 15px;
+  border: var(--secondary-color) solid 2px;
+  border-radius: 80%;
+  margin: 5%;
 }
 
 /* ABOUT ME */
@@ -84,8 +88,7 @@ header nav ul li a:hover {
   display: flex;
   padding: 50px;
   margin: 0 10%;
-  border: red solid 5px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .intro div {
@@ -98,22 +101,21 @@ header nav ul li a:hover {
 
 .intro img {
   width: 20vw;
-  height: auto;
+  height: 20vw;
   margin: 25px 35%;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 50%;
 }
 
 /* MY WORK */
 .showcase {
-  margin: 0 10%;
+  margin: 0 15%;
   padding: 50px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   align-content: space-around;
-  border: red solid 5px;
 }
 
 .showcase img {
@@ -127,7 +129,7 @@ header nav ul li a:hover {
 }
 
 .run-buddy2 img {
-  width: 40vw;
+  width: 60vw;
   height: auto;
   filter: grayscale(100%);
 }
@@ -146,7 +148,7 @@ header nav ul li a:hover {
 }
 
 .Horiseon img {
-  width: 20vw;
+  width: 30vw;
   height: auto;
   flex: 1;
   filter: grayscale(100%);
@@ -157,8 +159,8 @@ header nav ul li a:hover {
 }
 
 .robot-gladiators img {
-  width: 20vw;
-  height: 10vw;
+  width: 30vw;
+  height: 15vw;
   flex: 1;
   filter: grayscale(100%);
 }
@@ -173,6 +175,38 @@ header nav ul li a:hover {
   font-weight: bold;
 }
 
+@media screen and (max-width: 800px) {
+  header .nav {
+    font-size: 90%;
+  }
+
+  .intro img {
+    height: 40vw;
+    width: auto;
+  }
+
+  .smaller {
+    flex-direction: column;
+  }
+}
+
+/* CONTACT ME */
+.contact-me {
+  margin: 0 10%;
+  padding: 50px;
+}
+
+.contact-me a img {
+  width: 5vw;
+  height: auto;
+  flex: 1;
+  flex-direction: row;
+}
+
+/* FOOTER */
+footer {
+  background-color: beige;
+}
 
 
 
