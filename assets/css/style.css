@@ -9,13 +9,11 @@
     box-sizing: border-box;
   }
 
+  /* BODY */
 body { 
     color: var(--secondary-color);
     font-family: Trebuchet MS, Arial, sans-serif;
     background-color: var(--primary-color);
-    border: solid red 10px;
-    justify-content: space-around;
-    flex-wrap: wrap;
   }
 
   /* HEADER / NAV BAR STYLES START */
@@ -48,7 +46,6 @@ header a {
 
 header nav {
   margin: 7px 0;
-  border: solid red 5px;
 }
 
 header nav ul {
@@ -61,7 +58,7 @@ header nav ul {
 
 header nav ul li a {
   padding: 10px 15px;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1.75vw;
 }
 
@@ -72,25 +69,46 @@ header nav ul li a:hover {
 }
 /* HEADER / NAVBAR STYLES END */
 
-/* SECTION STYLES */
+/* SUBTITLE */
 .subtitle {
+  display:flex;
+  flex-direction: column;
   font-size: 1.75vw;
   font-weight: lighter;
-  text-align: right;
-  text-shadow: beige;
+  text-align: center;
   padding: 10px 10px 10px 10px;
 }
 
-.intro img {
-  max-width: 15%;
+/* ABOUT ME */
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin: 0 10%;
+  border: red solid 5px
 }
 
-.big-showcase-item a img {
+.intro div {
+  align-items: center;
+  flex: 1;
+}
+
+.intro img {
+  width: 20vw;
+  height: auto;
+  margin: 25px 35%;
+  align-items: center;
+  border-radius: 50%;
+}
+
+/* MY WORK */
+.showcase {}
+.run-buddy2 a img {
   max-width: 400px;
   max-height: 350px;
 }
 
-.cont-showcase-items {
+.smaller {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -98,13 +116,11 @@ header nav ul li a:hover {
   flex-grow: 1;
 }
 
-.cont-showcase-items a {
+.smaller a {
   display: flex;
-  border: solid red 5px;
 }
 
-.cont-showcase-items a img {
+.smaller a img {
   max-width: 400px;
   max-height: 350px;
-  border: solid red 5px;
 }
