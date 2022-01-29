@@ -123,18 +123,18 @@ header nav ul li a:hover {
   border-radius: 50%;
 }
 
-.run-buddy2 {
+.API-Mash-Project {
   flex: 2;
   position: relative;
 }
 
-.run-buddy2 img {
+.API-Mash-Project img {
   width: 60vw;
   height: auto;
   filter: grayscale(100%);
 }
 
-.run-buddy2 img:hover {
+.API-Mash-Project img:hover {
   filter:brightness(100%)
 }
 
@@ -147,14 +147,14 @@ header nav ul li a:hover {
   flex: 1;
 }
 
-.Horiseon img {
+.Lockdown-Security img {
   width: 30vw;
-  height: auto;
+  height: 15vw;
   flex: 1;
   filter: grayscale(100%);
 }
 
-.Horiseon img:hover {
+.Lockdown-Security img:hover {
   filter: brightness(100%);
 }
 
@@ -166,6 +166,28 @@ header nav ul li a:hover {
 }
 
 .robot-gladiators img:hover {
+  filter: brightness(100%);
+}
+
+.run-buddy2 img {
+  width: 30vw;
+  height: 15vw;
+  flex: 1;
+  filter: grayscale(100%);
+}
+
+.run-buddy2 img:hover {
+  filter:brightness(100%)
+}
+
+.Horiseon img {
+  width: 30vw;
+  height: 15vw;
+  flex: 1;
+  filter: grayscale(100%);
+}
+
+.Horiseon img:hover {
   filter: brightness(100%);
 }
 
