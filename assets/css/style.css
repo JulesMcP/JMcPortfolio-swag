@@ -9,6 +9,10 @@
     box-sizing: border-box;
   }
 
+  .flex {
+    display: flex;
+  }
+
   /* BODY */
 body { 
     color: var(--secondary-color);
