@@ -151,6 +151,17 @@ header nav ul li a:hover {
   flex: 1;
 }
 
+.Feed-Your-Camera img {
+  width: 30vw;
+  height: 15vw;
+  flex: 1;
+  filter: grayscale(100%);
+}
+
+.Feed-Your-Camera img:hover {
+  filter: grayscale(100%);
+}
+
 .Lockdown-Security img {
   width: 30vw;
   height: 15vw;
