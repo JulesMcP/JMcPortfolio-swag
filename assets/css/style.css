@@ -90,7 +90,7 @@ header nav ul li a:hover {
 /* ABOUT ME */
 .intro {
   display: flex;
-  padding: 50px;
+  padding: 0px;
   margin: 0 10%;
   align-items: flex-start;
 }
@@ -159,7 +159,7 @@ header nav ul li a:hover {
 }
 
 .Feed-Your-Camera img:hover {
-  filter: grayscale(100%);
+  filter: brightness(100%);
 }
 
 .Lockdown-Security img {
